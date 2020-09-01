@@ -90,7 +90,7 @@ data.head()
 # In[10]:
 
 
-data.to_csv (r'C:\Users\Sumit Ranjan\Downloads\Profile_keyword.csv' ,index = False, header=True)
+data.to_csv (r'Profile_keyword.csv' ,index = False, header=True)
 
 
 # In[ ]:
