@@ -26,7 +26,7 @@ arr=[]
 
 
 while(i<=53):    
-    text=slate.PDF(open('AI_CHAMP/TASK 1/Profile ('+str(i)+').pdf', 'rb')).text()
+    text=slate.PDF(open('Profile ('+str(i)+').pdf', 'rb')).text()
     text
     i=i+1
     arr=np.append(arr,text)
@@ -48,7 +48,7 @@ print(arr)
 # In[5]:
 
 
-arr.to_csv (r'C:\Users\Sumit Ranjan\Downloads\Profile_text.csv' ,index = False, header=True)
+arr.to_csv (r'Profile_text.csv' ,index = False, header=True)
 
 
 # In[ ]:
